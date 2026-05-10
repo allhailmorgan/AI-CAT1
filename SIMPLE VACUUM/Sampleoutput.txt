@@ -1,12 +1,12 @@
- 
-PS C:\Users\USER\Downloads\AITASKS\AI-AND-MACHINE-LEARNING-ASSIGNMENT> & "C:/Program Files/Python313/python.exe" c:/Users/USER/Downloads/AITASKS/AI-AND-MACHINE-LEARNING-ASSIGNMENTS/MAZEPROBLEM/main.py
-Location A is DIRTY.
-Action: Cleaning A...
-Action: Moving to B...
+ers/USER/Downloads/AITASKS/AI-AND-MACHINE-LEARNING-ASSIGNMENTS/MAZEPROBLEM/main.py
+--- Starting Cleaning Task at Location A ---
+[Sensor] Location A status: DIRTY
+[Action] Sucking dirt at A...
+[Success] A is now clean.
+[Movement] Moving from A to B.
 
-Location B is DIRTY.
-Action: Cleaning B...
-Action: Moving to A...
+[Sensor] Location B status: DIRTY
+[Action] Sucking dirt at B...
+[Success] B is now clean.
 
-Environment is now clean.
-PS C:\Users\USER\Downloads\AITASKS\AI-AND-MACHINE-LEARNING-ASSIGNMENTS> 
+--- Task Complete: All locations processed. ---
