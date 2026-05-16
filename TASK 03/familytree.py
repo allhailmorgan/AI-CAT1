@@ -1,13 +1,21 @@
 
-% ==========================
-% FACTS: Genders
-% ======
-male(charles). male(john). male(david). male(james). male(alex).
-female(elizabeth). female(mary). female(lisa). female(emma). female(lily).
 
-% ==============
+% FACTS: Genders
+
+male(charles). 
+male(john). 
+male(david). 
+male(james). 
+male(alex).
+female(elizabeth). 
+female(mary). 
+female(lisa). 
+female(emma). 
+female(lily).
+
+
 % FACTS: Base Parent Relationships (parent(Parent, Child))
-% ==================
+
 % Grandparents to Parents
 parent(charles, john).
 parent(elizabeth, john).
@@ -27,9 +35,9 @@ parent(james, lily).
 parent(mary, lily).
 
 
-% ====================================================================
+
 % RULES: Relationships
-% ====================================================================
+
 
 % A sibling shares at least one parent, and cannot be themselves
 sibling(X, Y) :- 
