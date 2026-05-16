@@ -1,0 +1,35 @@
+** OUTPUT BFS (BREADTH)
+
+PS C:\Users\USER> & "C:/Program Files/Python313/python.exe" c:/Users/USER/Desktop/main1.py
+--- BFS Traversal Steps ---
+Visiting Node: A | Current Path: A
+Visiting Node: B | Current Path: A -> B
+Visiting Node: C | Current Path: A -> C
+Visiting Node: D | Current Path: A -> B -> D
+Visiting Node: E | Current Path: A -> B -> E
+Visiting Node: F | Current Path: A -> C -> F
+Visiting Node: G | Current Path: A -> B -> E -> G
+
+Goal state reached successfully!
+
+==============================================
+FINAL BFS PATH: A -> B -> E -> G
+==============================================
+PS C:\Users\USER> 
+
+
+** OUTPUT DFS (DEPTH) 
+PS C:\Users\USER> & "C:/Program Files/Python313/python.exe" "c:/Users/USER/Desktop/CODING PROJECTS/Untitled-1.py"
+--- DFS Traversal Steps ---
+Visiting Node: A | Current Path: A
+Visiting Node: B | Current Path: A -> B
+Visiting Node: D | Current Path: A -> B -> D
+Visiting Node: E | Current Path: A -> B -> E
+Visiting Node: G | Current Path: A -> B -> E -> G
+
+Goal state reached successfully!
+
+==============================================
+FINAL DFS PATH: A -> B -> E -> G
+==============================================
+PS C:\Users\USER> 
